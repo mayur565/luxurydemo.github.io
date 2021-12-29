@@ -1,0 +1,47 @@
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+#dropdown-menu li a{
+color: black;
+background-color: black;
+}
+
+#menu li{
+    display: inline-block;
+    margin: auto;
+    padding: 10px 12px;
+}
+#menu li a{
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 11px 10px;
+    text-transform: uppercase;
+    
+}
+#logo{
+    margin-top: 19px;
+    font-size: 1.5rem;
+    font-family: mayur;
+    letter-spacing: 1px;
+   
+    text-transform: uppercase;
+}
+#menu li a:hover{
+    background-color: #e74c3c;
+    border-radius: 15%;
+    transition: 0.50s;
+    
+ 
+}
+#navbar1{
+    position: fixed;
+    z-index: 10000;
+    transition: 0.3s;
+    top: 0%;
+}
